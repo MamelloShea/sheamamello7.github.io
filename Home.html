@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Pandamonium World</title>
+
+<style>
+
+body {
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    background-color: #075e2a;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+
+/* LOGO */
+
+.logo {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+
+.navigation {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color:solid pink;
+    color: black;
+    transition: 0.3s;
+}
+
+
+h2 {
+    text-align: center;
+    color: #075e2a;
+    margin: 25px;
+}
+
+
+.container {
+    width: 94%;
+    margin: auto;
+}
+
+
+
+.one, .two, .three {
+    width: 29%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.one {
+    margin-left: 1%;
+}
+
+.two {
+    margin-left: 5%;
+}
+
+.three {
+    margin-left: 5%;
+}
+
+
+/* IMAGES */
+
+.one img, .two img, .three img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* TEXT */
+
+.one p, .two p, .three p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* ========================= */
+/* BOTTOM TWO BOXES */
+/* ========================= */
+
+.four, .five {
+    width: 45%;
+    height: 180px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.four {
+    margin-left: 1%;
+}
+
+.five {
+    margin-left: 8%;
+}
+
+.four p, .five p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: #075e2a;
+    color: white;
+    margin-top: 40px;
+    padding: 25px;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .header {
+        padding: 20px;
+    }
+
+
+    /* Tablet Logo */
+
+    .logo {
+        left: 20px;
+        top: 12px;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .navigation {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .navigation a {
+        font-size: 16px;
+        margin: 5px;
+        padding: 8px 12px;
+    }
+
+    .one, .two, .three {
+        width: 30%;
+        height: 380px;
+        margin-left: 2%;
+    }
+
+    .one img, .two img, .three img {
+        height: 220px;
+    }
+
+    .four, .five {
+        width: 46%;
+        margin-left: 2%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        padding: 18px 10px;
+    }
+
+
+    /* Mobile Logo */
+
+    .logo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    h1 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    .navigation {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .navigation a {
+        display: block;
+        width: 80%;
+        margin: 8px auto;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 20px 10px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+
+    .one, .two, .three {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .one img, .two img, .three img {
+        height: 230px;
+    }
+
+    .one p, .two p, .three p {
+        font-size: 15px;
+    }
+
+
+    .four, .five {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .four p, .five p {
+        font-size: 15px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+
+    <div class="logo">
+
+        
+
+    </div>
+
+
+    <h1>PANDAMONIUM WORLD</h1>
+
+    <div class="navigation">
+
+        <a href="home.html">Home</a>
+
+        <a href="about.html">About</a>
+
+        <a href="contact.html">Contacts</a>
+
+    </div>
+
+</div>
+
+
+<h2>PANDAMONIUM SUPERSTORE</h2>
+
+<div class="container">
+
+
+    <!-- FOOTBALL -->
+
+    <div class="one">
+
+        <img src="SKINCARE.jpg" alt="SKINCARE">
+
+        <p>
+            Dry skin.Whether it was the skin type you were born with or the current state of your complexion, having dry skin can feel tight and uncomfortable. 
+        </p>
+
+    </div>
+
+
+    <!-- PLAYERS -->
+
+    <div class="two">
+
+        <img src="HAIRCARE.jpg" alt="HAIRCARE">
+
+        <p>
+            Great hair starts with a great routine. Achieve beautiful, luscious hair with essential tips our store provides on pamphlets
+        </p>
+
+    </div>
+
+
+    <div class="three">
+
+        <img src="PERFUMES.jpg" alt="PERFUMES">
+
+        <p>
+           Perfumes are not just about scent; they are a powerful tool for self-expression, mood enhancement, and emotional connection. 
+        </p>
+
+    </div>
+
+
+    <div class="four">
+
+        <p>
+
+            <b>WHY SELL</b>
+
+            <br><br>
+
+            Selling is essentially about turning ownership into opportunity. People sell for many reasons: the profit motive drives individuals and businesses to exchange  
+        </p>
+
+    </div>
+
+    <div class="five">
+
+        <p>
+
+            <b>OWNERSHIP</b>
+
+            <br><br>
+
+            Underpinning all of this are legal and economic systems that grant people the right to own property and transfer it through sale
+        </p>
+
+    </div>
+
+
+</div>
+
+
+<div class="footer">
+
+    WWW.PANDAMONIUM2026
+
+</div>
+
+
+</body>
+
+</html>
